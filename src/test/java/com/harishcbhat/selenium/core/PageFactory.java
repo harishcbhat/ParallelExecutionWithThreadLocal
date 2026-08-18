@@ -1,7 +1,7 @@
-package com.amazon.selenium.core;
+package com.harishcbhat.selenium.core;
 
-import com.amazon.selenium.pages.DashboardPage;
-import com.amazon.selenium.pages.LoginPage;
+import com.harishcbhat.selenium.pages.DashboardPage;
+import com.harishcbhat.selenium.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 
 /**

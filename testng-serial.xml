@@ -17,7 +17,7 @@
 
     <test name="LoginTests">
         <classes>
-            <class name="com.amazon.selenium.tests.LoginTest"/>
+            <class name="com.harishcbhat.selenium.tests.LoginTest"/>
         </classes>
     </test>
 

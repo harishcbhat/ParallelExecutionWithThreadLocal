@@ -1,4 +1,4 @@
-package com.amazon.selenium.pages;
+package com.harishcbhat.selenium.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

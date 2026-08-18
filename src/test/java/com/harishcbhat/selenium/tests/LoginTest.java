@@ -1,8 +1,8 @@
-package com.amazon.selenium.tests;
+package com.harishcbhat.selenium.tests;
 
-import com.amazon.selenium.core.PageFactory;
-import com.amazon.selenium.pages.DashboardPage;
-import com.amazon.selenium.pages.LoginPage;
+import com.harishcbhat.selenium.core.PageFactory;
+import com.harishcbhat.selenium.pages.DashboardPage;
+import com.harishcbhat.selenium.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
