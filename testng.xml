@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    parallel="methods"  -> each @Test method runs in its own thread
+    thread-count        -> maximum number of concurrent threads
+
+    Because the WebDriver is stored in a ThreadLocal (see DriverFactory),
+    every thread gets its own isolated browser session, so methods can run
+    concurrently without stepping on each other's driver.
+-->
+<suite name="ThreadSafeParallelSuite" parallel="methods" thread-count="3" verbose="1">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="headless" value="true"/>
+
+    <test name="LoginTests">
+        <classes>
+            <class name="com.amazon.selenium.tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
