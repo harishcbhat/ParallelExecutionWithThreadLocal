@@ -1,4 +1,4 @@
-package com.harishcbhat.selenium.pages;
+package com.selenium.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -24,7 +24,7 @@ in **parallel** or **serially** with zero code changes — you just pick the sui
 ├── testng.xml                 # Parallel suite (parallel="methods", thread-count=3)
 ├── testng-serial.xml          # Serial suite (no parallel attribute -> single thread)
 └── src/test
-    ├── java/com/harishcbhat/selenium
+    ├── java/com/selenium
     │   ├── core
     │   │   ├── DriverFactory.java   # ThreadLocal<WebDriver> lifecycle (the core)
     │   │   └── PageFactory.java     # Builds page objects over the thread's driver

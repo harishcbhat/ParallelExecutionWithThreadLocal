@@ -1,7 +1,7 @@
-package com.harishcbhat.selenium.core;
+package com.selenium.core;
 
-import com.harishcbhat.selenium.pages.DashboardPage;
-import com.harishcbhat.selenium.pages.LoginPage;
+import com.selenium.pages.DashboardPage;
+import com.selenium.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 
 /**

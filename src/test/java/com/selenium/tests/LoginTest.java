@@ -1,8 +1,8 @@
-package com.harishcbhat.selenium.tests;
+package com.selenium.tests;
 
-import com.harishcbhat.selenium.core.PageFactory;
-import com.harishcbhat.selenium.pages.DashboardPage;
-import com.harishcbhat.selenium.pages.LoginPage;
+import com.selenium.core.PageFactory;
+import com.selenium.pages.DashboardPage;
+import com.selenium.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
